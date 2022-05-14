@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/QuickByte/app/src/main/res/drawable/bg.xml" value="0.21614583333333334" />
         <entry key="..\:/QuickByte/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/QuickByte/app/src/main/res/layout/activity_splash.xml" value="0.1859375" />
         <entry key="..\:/QuickByte/app/src/main/res/layout/fragment_second.xml" value="0.2" />
+        <entry key="..\:/QuickByte/app/src/main/res/menu/menu.xml" value="0.2" />
         <entry key="..\:/QuickByte/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2128205128205128" />
       </map>
     </option>
