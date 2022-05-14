@@ -6,9 +6,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/container"
+        android:name="com.example.quick_byte.fhome1"
+        android:layout_width="410dp"
+        android:layout_height="629dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout="@layout/fragment_fhome1" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
         android:layout_width="377dp"
         android:layout_height="72dp"
+        android:layout_marginBottom="15dp"
         android:background="@drawable/bg"
         app:backgroundTint="#F6F5F4"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -16,8 +31,9 @@
         app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.998"
-        android:layout_marginBottom="15dp"
 
-        app:menu="@menu/menu" />
+        app:layout_constraintVertical_bias="0.998"
+        app:menu="@menu/menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 </androidx.constraintlayout.widget.ConstraintLayout>
