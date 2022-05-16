@@ -3,15 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/QuickByte/app/src/main/res/drawable-anydpi/ic_action_Fhome.xml" value="0.1984375" />
         <entry key="..\:/QuickByte/app/src/main/res/drawable-anydpi/ic_action_home.xml" value="0.1984375" />
         <entry key="..\:/QuickByte/app/src/main/res/drawable/bg.xml" value="0.21614583333333334" />
+        <entry key="..\:/QuickByte/app/src/main/res/layout/activity_maggipoint.xml" value="0.18229166666666666" />
         <entry key="..\:/QuickByte/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/QuickByte/app/src/main/res/layout/activity_splash.xml" value="0.1859375" />
+        <entry key="..\:/QuickByte/app/src/main/res/layout/fraghome.xml" value="0.18229166666666666" />
+        <entry key="..\:/QuickByte/app/src/main/res/layout/fragment_blank.xml" value="0.18229166666666666" />
         <entry key="..\:/QuickByte/app/src/main/res/layout/fragment_faccount4.xml" value="0.18229166666666666" />
         <entry key="..\:/QuickByte/app/src/main/res/layout/fragment_fcart2.xml" value="0.18229166666666666" />
         <entry key="..\:/QuickByte/app/src/main/res/layout/fragment_ffavourite3.xml" value="0.18229166666666666" />
-        <entry key="..\:/QuickByte/app/src/main/res/layout/fragment_fhome1.xml" value="0.18229166666666666" />
+        <entry key="..\:/QuickByte/app/src/main/res/layout/fragment_fhome1.xml" value="0.16666666666666666" />
         <entry key="..\:/QuickByte/app/src/main/res/layout/fragment_second.xml" value="0.2" />
+        <entry key="..\:/QuickByte/app/src/main/res/layout/sample.xml" value="0.18229166666666666" />
         <entry key="..\:/QuickByte/app/src/main/res/menu/menu.xml" value="0.2" />
         <entry key="..\:/QuickByte/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2128205128205128" />
       </map>
