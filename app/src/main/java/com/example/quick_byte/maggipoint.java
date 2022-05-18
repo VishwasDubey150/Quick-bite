@@ -24,12 +24,12 @@ public class maggipoint extends AppCompatActivity {
 
         getSupportActionBar().hide();
         ArrayList<MainModel> list= new ArrayList<>();
-        list.add(new MainModel("Masala Maggi","₹45"));
-        list.add(new MainModel("Butter Maggi","₹55"));
-        list.add(new MainModel("Sandwich","₹60"));
-        list.add(new MainModel("lassi","₹30"));
-        list.add(new MainModel("coffee","₹45"));
-        list.add(new MainModel("Maggi","₹45"));
+        list.add(new MainModel("~Masala Maggi","₹45"));
+        list.add(new MainModel("~Butter Maggi","₹55"));
+        list.add(new MainModel("~Sandwich","₹60"));
+        list.add(new MainModel("~lassi","₹30"));
+        list.add(new MainModel("~coffee","₹45"));
+        list.add(new MainModel("~Maggi","₹45"));
         MainAdapter adapter=new MainAdapter(list,this);
         binding.recycle.setAdapter(adapter);
 
