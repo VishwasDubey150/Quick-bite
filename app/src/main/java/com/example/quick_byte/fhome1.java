@@ -68,6 +68,7 @@ public class fhome1 extends Fragment {
         CardView cvchai=(CardView) root.findViewById(R.id.chai);
         CardView cvkathi=(CardView) root.findViewById(R.id.kj);
         CardView cvquench=(CardView) root.findViewById(R.id.quench);
+
         cvmp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -77,6 +78,7 @@ public class fhome1 extends Fragment {
                 startActivity(intent);
             }
         });
+
         cvchai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -86,15 +88,16 @@ public class fhome1 extends Fragment {
                 startActivity(intent);
             }
         });
+
         cvquench.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
                 Intent intent;
                 intent = new Intent(getActivity(), quench.class);
                 startActivity(intent);
             }
         });
+
         cvkathi.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -104,6 +107,7 @@ public class fhome1 extends Fragment {
                 startActivity(intent);
             }
         });
+
         return root;
     }
 }

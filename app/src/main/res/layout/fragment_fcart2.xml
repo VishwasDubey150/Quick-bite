@@ -11,15 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:layout_width="269dp"
-            android:layout_height="265dp"
-            android:text="cart"
-            android:textSize="50dp"
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/hi"
+            android:layout_width="371dp"
+            android:layout_height="302dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.331"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/comming_soon" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

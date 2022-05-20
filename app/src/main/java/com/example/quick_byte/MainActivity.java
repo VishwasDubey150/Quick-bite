@@ -51,6 +51,5 @@ BottomNavigationView bottomNavigationView;
                 return true;
             }
         });
-
     }
 }
