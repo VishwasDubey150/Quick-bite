@@ -3,11 +3,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="95dp">
+    android:layout_height="105dp">
 
     <androidx.cardview.widget.CardView
         android:layout_width="362dp"
-        android:layout_height="78dp"
+        android:layout_height="88dp"
         android:layout_marginTop="12dp"
         android:elevation="50dp"
         app:layout_constraintEnd_toEndOf="parent"

@@ -30,6 +30,15 @@ public class quench extends AppCompatActivity {
         list.add(new MainModel("~lassi","₹30"));
         list.add(new MainModel("~coffee","₹45"));
         list.add(new MainModel("~Maggi","₹45"));
+        list.add(new MainModel("~Maggi","₹45"));
+        list.add(new MainModel("~Maggi","₹45"));
+        list.add(new MainModel("~Maggi","₹45"));
+        list.add(new MainModel("~Maggi","₹45"));
+        list.add(new MainModel("~Maggi","₹45"));
+        list.add(new MainModel("~Maggi","₹45"));
+        list.add(new MainModel("~Maggi","₹45"));
+        list.add(new MainModel("~Maggi","₹45"));
+        list.add(new MainModel("~Maggi","₹45"));
         MainAdapter adapter=new MainAdapter(list,this);
         binding.recycle.setAdapter(adapter);
 
